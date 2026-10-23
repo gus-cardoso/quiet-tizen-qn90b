@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Netflix",
+    "Id": "org.tizen.netflix-app",
+    "Asset": "placeholders/card-0.png",
+    "Description": "Movies & series",
+    "Fit": "contain-full",
+    "Background": "#FFFFFF",
+    "Width": 304,
+    "Height": 304
+  },
+  {
+    "Name": "YouTube",
+    "Id": "com.samsung.tv.cobalt-yt",
+    "Asset": "placeholders/card-1.png",
+    "Description": "Videos",
+    "Fit": "contain-full",
+    "Background": "#FFFFFF",
+    "Width": 304,
+    "Height": 304
+  },
+  {
+    "Name": "Prime Video",
+    "Id": "org.tizen.primevideo",
+    "Asset": "placeholders/card-2.png",
+    "Description": "Movies & series",
+    "Fit": "contain-full",
+    "Background": "#0779FF",
+    "Width": 304,
+    "Height": 304
+  }
+]

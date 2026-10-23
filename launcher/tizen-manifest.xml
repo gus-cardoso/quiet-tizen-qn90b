@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="QuietHome1" version="0.1.9" api-version="6.5">
+ <profile name="tv" />
+ <ui-application appid="QuietHome1.Home" exec="QuietHomeStandalone.dll" type="dotnet" multiple="false" taskmanage="true" nodisplay="false"><label>Quiet Home Test</label><icon>quiet-home.png</icon></ui-application>
+ <privileges><privilege>http://tizen.org/privilege/appmanager.launch</privilege></privileges>
+</manifest>

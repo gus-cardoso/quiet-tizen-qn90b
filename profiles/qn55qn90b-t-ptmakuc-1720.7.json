@@ -1,0 +1,22 @@
+{
+  "model": "QN55QN90BAFXZA",
+  "owner_reported_firmware": "T-PTMAKUC-1720.7",
+  "observed_tizen": "6.5.0",
+  "release_prefix": "Tizen6/TV",
+  "runtime": "3.1.3",
+  "architecture": "armv7l",
+  "package": "QuietHome1",
+  "app_id": "QuietHome1.Home",
+  "version": "0.1.9",
+  "observed_original_operation": "com.samsung.tv.csfs",
+  "observed_original_home": "com.samsung.tv.csfs",
+  "observed_original_startup": "org.tizen.tv-viewer",
+  "example_sources": {
+    "Nintendo Switch": 13,
+    "PlayStation 5": 14,
+    "Nintendo Switch 2": 16
+  },
+  "root_used": false,
+  "replace_stock_binaries": false,
+  "cleanup_groups": []
+}
