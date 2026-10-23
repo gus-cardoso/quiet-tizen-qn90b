@@ -78,6 +78,13 @@ symbol is an optional local download; the public fallback uses plain PS5 text.
 The sanitized public build is compiled and packaged locally, but has not replaced
 the already-tested private installation on the TV.
 
+## Local validation
+
+After building, run `python -m unittest discover -s tests -v` and
+`python tools/audit_public.py`. The five offline tests check package contents,
+response parsing, three-selector apply/restore, rollback after a partial failure,
+and refusal on selector drift using a fake TV. They do not replace hardware tests.
+
 ## Credits and license
 
 Based on [quiet-tizen](https://github.com/jss8649/quiet-tizen), commit
